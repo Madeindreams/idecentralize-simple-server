@@ -17,7 +17,7 @@ class IDServer {
         this.app = app;                                  
         this.board = new five.Board()                    
         this.led;
-        this.init()
+        
     }
     //Start the server
     init = () => {
