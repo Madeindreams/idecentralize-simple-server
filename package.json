@@ -1,0 +1,21 @@
+{
+  "name": "simple-socket",
+  "version": "1.0.0",
+  "description": "A simple socket calss",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [
+    "webSocket"
+  ],
+  "author": "Ian Decentrlize",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1",
+    "johnny-five": "^2.1.0",
+    "public-ip": "^4.0.4",
+    "ws": "^8.2.3"
+  }
+}
