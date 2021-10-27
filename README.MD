@@ -1,4 +1,5 @@
 # Simple Server
+[![Version npm](https://img.shields.io/npm/v/@idecentralize/simple-server.svg?logo=npm)](https://www.npmjs.com/package/@idecentralize/simple-server)
 
 This simple server can;
 
