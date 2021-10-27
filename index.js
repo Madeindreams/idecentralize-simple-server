@@ -5,6 +5,8 @@ import express from "express"
 import { WebSocketServer }  from "ws"
 import five from"johnny-five"
 const app =  express();
+app.use(express.urlencoded({ extended: true }));
+app.use(express.json());
 const server = http.createServer(app)
 
 class IDServer {
@@ -40,7 +42,7 @@ class IDServer {
 
         this.app.use(express.urlencoded({ extended: true }));
         this.app.use(express.json());
-        
+
         this.app.get('/ping', async function (req, res) {
             const rAddress = req.socket.remoteAddress;
             console.log("\x1b[32m%s\x1b[0m", 'Ping request from :', rAddress);
