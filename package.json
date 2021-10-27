@@ -1,16 +1,20 @@
 {
-  "name": "simple-socket",
-  "version": "1.0.0",
-  "description": "A simple socket calss",
+  "name": "@idecentralize/simple-server",
+  "version": "1.0.1",
+  "description": "A simple socket class",
   "main": "index.js",
   "type": "module",
   "scripts": {
     "start": "node index.js"
   },
   "keywords": [
-    "webSocket"
+    "webSocket",
+    "http",
+    "server",
+    "nodeJS",
+    "arduino"
   ],
-  "author": "Ian Decentrlize",
+  "author": "Ian Decentralize",
   "license": "MIT",
   "dependencies": {
     "express": "^4.17.1",
